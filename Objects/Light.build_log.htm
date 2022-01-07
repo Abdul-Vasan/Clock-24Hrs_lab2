@@ -1,0 +1,272 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Dhritiman Sinha, BITS Goa, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.164.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\dhritiman\Desktop\latest_code_with_spacing - Copy\Lab2_grp5\lab2_grp5.uvprojx
+Project File Date:  12/05/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling GLCD_Fonts.c...
+compiling main.c...
+stm32f4xx_tim.h(579): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_CR1"  (declared at line 1140 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_CR1                    ((uint16_t)0x0000)
+stm32f4xx_tim.h(580): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_CR2"  (declared at line 1141 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_CR2                    ((uint16_t)0x0001)
+stm32f4xx_tim.h(581): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_SMCR"  (declared at line 1142 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_SMCR                   ((uint16_t)0x0002)
+stm32f4xx_tim.h(582): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_DIER"  (declared at line 1143 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_DIER                   ((uint16_t)0x0003)
+stm32f4xx_tim.h(583): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_SR"  (declared at line 1144 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_SR                     ((uint16_t)0x0004)
+stm32f4xx_tim.h(584): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_EGR"  (declared at line 1145 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_EGR                    ((uint16_t)0x0005)
+stm32f4xx_tim.h(585): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_CCMR1"  (declared at line 1146 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_CCMR1                  ((uint16_t)0x0006)
+stm32f4xx_tim.h(586): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_CCMR2"  (declared at line 1147 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_CCMR2                  ((uint16_t)0x0007)
+stm32f4xx_tim.h(587): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_CCER"  (declared at line 1148 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_CCER                   ((uint16_t)0x0008)
+stm32f4xx_tim.h(588): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_CNT"  (declared at line 1149 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_CNT                    ((uint16_t)0x0009)
+stm32f4xx_tim.h(589): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_PSC"  (declared at line 1150 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_PSC                    ((uint16_t)0x000A)
+stm32f4xx_tim.h(590): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_ARR"  (declared at line 1151 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_ARR                    ((uint16_t)0x000B)
+stm32f4xx_tim.h(591): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_RCR"  (declared at line 1152 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_RCR                    ((uint16_t)0x000C)
+stm32f4xx_tim.h(592): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_CCR1"  (declared at line 1153 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_CCR1                   ((uint16_t)0x000D)
+stm32f4xx_tim.h(593): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_CCR2"  (declared at line 1154 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_CCR2                   ((uint16_t)0x000E)
+stm32f4xx_tim.h(594): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_CCR3"  (declared at line 1155 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_CCR3                   ((uint16_t)0x000F)
+stm32f4xx_tim.h(595): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_CCR4"  (declared at line 1156 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_CCR4                   ((uint16_t)0x0010)
+stm32f4xx_tim.h(596): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_BDTR"  (declared at line 1157 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_BDTR                   ((uint16_t)0x0011)
+stm32f4xx_tim.h(597): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_DCR"  (declared at line 1158 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_DCR                    ((uint16_t)0x0012)
+stm32f4xx_tim.h(598): warning:  #47-D: incompatible redefinition of macro "TIM_DMABase_OR"  (declared at line 1166 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABase_OR                     ((uint16_t)0x0013)
+stm32f4xx_tim.h(627): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_1Transfer"  (declared at line 1178 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_1Transfer           ((uint16_t)0x0000)
+stm32f4xx_tim.h(628): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_2Transfers"  (declared at line 1179 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_2Transfers          ((uint16_t)0x0100)
+stm32f4xx_tim.h(629): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_3Transfers"  (declared at line 1180 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_3Transfers          ((uint16_t)0x0200)
+stm32f4xx_tim.h(630): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_4Transfers"  (declared at line 1181 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_4Transfers          ((uint16_t)0x0300)
+stm32f4xx_tim.h(631): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_5Transfers"  (declared at line 1182 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_5Transfers          ((uint16_t)0x0400)
+stm32f4xx_tim.h(632): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_6Transfers"  (declared at line 1183 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_6Transfers          ((uint16_t)0x0500)
+stm32f4xx_tim.h(633): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_7Transfers"  (declared at line 1184 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_7Transfers          ((uint16_t)0x0600)
+stm32f4xx_tim.h(634): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_8Transfers"  (declared at line 1185 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_8Transfers          ((uint16_t)0x0700)
+stm32f4xx_tim.h(635): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_9Transfers"  (declared at line 1186 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_9Transfers          ((uint16_t)0x0800)
+stm32f4xx_tim.h(636): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_10Transfers"  (declared at line 1187 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_10Transfers         ((uint16_t)0x0900)
+stm32f4xx_tim.h(637): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_11Transfers"  (declared at line 1188 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_11Transfers         ((uint16_t)0x0A00)
+stm32f4xx_tim.h(638): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_12Transfers"  (declared at line 1189 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_12Transfers         ((uint16_t)0x0B00)
+stm32f4xx_tim.h(639): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_13Transfers"  (declared at line 1190 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_13Transfers         ((uint16_t)0x0C00)
+stm32f4xx_tim.h(640): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_14Transfers"  (declared at line 1191 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_14Transfers         ((uint16_t)0x0D00)
+stm32f4xx_tim.h(641): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_15Transfers"  (declared at line 1192 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_15Transfers         ((uint16_t)0x0E00)
+stm32f4xx_tim.h(642): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_16Transfers"  (declared at line 1193 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_16Transfers         ((uint16_t)0x0F00)
+stm32f4xx_tim.h(643): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_17Transfers"  (declared at line 1194 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_17Transfers         ((uint16_t)0x1000)
+stm32f4xx_tim.h(644): warning:  #47-D: incompatible redefinition of macro "TIM_DMABurstLength_18Transfers"  (declared at line 1195 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_DMABurstLength_18Transfers         ((uint16_t)0x1100)
+stm32f4xx_tim.h(794): warning:  #47-D: incompatible redefinition of macro "TIM_EventSource_Update"  (declared at line 1168 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_EventSource_Update             ((uint16_t)0x0001)
+stm32f4xx_tim.h(795): warning:  #47-D: incompatible redefinition of macro "TIM_EventSource_CC1"  (declared at line 1169 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_EventSource_CC1                ((uint16_t)0x0002)
+stm32f4xx_tim.h(796): warning:  #47-D: incompatible redefinition of macro "TIM_EventSource_CC2"  (declared at line 1170 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_EventSource_CC2                ((uint16_t)0x0004)
+stm32f4xx_tim.h(797): warning:  #47-D: incompatible redefinition of macro "TIM_EventSource_CC3"  (declared at line 1171 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_EventSource_CC3                ((uint16_t)0x0008)
+stm32f4xx_tim.h(798): warning:  #47-D: incompatible redefinition of macro "TIM_EventSource_CC4"  (declared at line 1172 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_EventSource_CC4                ((uint16_t)0x0010)
+stm32f4xx_tim.h(799): warning:  #47-D: incompatible redefinition of macro "TIM_EventSource_COM"  (declared at line 1173 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_EventSource_COM                ((uint16_t)0x0020)
+stm32f4xx_tim.h(800): warning:  #47-D: incompatible redefinition of macro "TIM_EventSource_Trigger"  (declared at line 1174 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_EventSource_Trigger            ((uint16_t)0x0040)
+stm32f4xx_tim.h(801): warning:  #47-D: incompatible redefinition of macro "TIM_EventSource_Break"  (declared at line 1175 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h")
+  #define TIM_EventSource_Break              ((uint16_t)0x0080)
+stm32f4xx_tim.h(1150): warning:  #1-D: last line of file ends without a newline
+  /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+misc.h(123): warning:  #47-D: incompatible redefinition of macro "IS_NVIC_PRIORITY_GROUP"  (declared at line 306 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h")
+  #define IS_NVIC_PRIORITY_GROUP(GROUP) (((GROUP) == NVIC_PriorityGroup_0) || \
+misc.h(129): warning:  #47-D: incompatible redefinition of macro "IS_NVIC_PREEMPTION_PRIORITY"  (declared at line 312 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h")
+  #define IS_NVIC_PREEMPTION_PRIORITY(PRIORITY)  ((PRIORITY) < 0x10)
+misc.h(131): warning:  #47-D: incompatible redefinition of macro "IS_NVIC_SUB_PRIORITY"  (declared at line 314 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h")
+  #define IS_NVIC_SUB_PRIORITY(PRIORITY)  ((PRIORITY) < 0x10)
+misc.h(145): warning:  #47-D: incompatible redefinition of macro "IS_SYSTICK_CLK_SOURCE"  (declared at line 318 of "C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h")
+  #define IS_SYSTICK_CLK_SOURCE(SOURCE) (((SOURCE) == SysTick_CLKSource_HCLK) || \
+misc.h(178): warning:  #1-D: last line of file ends without a newline
+  /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
+main.c(95): warning:  #111-D: statement is unreachable
+  	HAL_PWR_EnableSleepOnExit();
+main.c(138): warning:  #1-D: last line of file ends without a newline
+  }
+main.c: 54 warnings, 0 errors
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling GLCD_MCBSTM32F400.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_pwr.c...
+assembling startup_stm32f407xx.s...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_rtc.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal_rtc_ex.c...
+compiling stm32f4xx_ll_fsmc.c...
+compiling stm32f4xx_hal_sram.c...
+linking...
+Program Size: Code=7564 RO-data=6752 RW-data=40 ZI-data=1872  
+".\Objects\Light.axf" - 0 Error(s), 54 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.7.13.0.pack
+                Keil.MDK-Middleware.7.13.0
+                Middleware for Keil MDK-Professional and MDK-Plus
+   * Component: Graphic LCD Version: 1.0.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: STM32Cube Framework Version: 1.0.0
+   * Component: Graphic LCD Version: 2.0.0
+   * Component: Classic Version: 1.7.9
+   * Component: Common Version: 1.7.9
+   * Component: Cortex Version: 1.7.9
+   * Component: DMA Version: 1.7.9
+   * Component: Flash Version: 1.7.9
+   * Component: GPIO Version: 1.7.9
+   * Component: PWR Version: 1.7.9
+   * Component: RCC Version: 1.7.9
+   * Component: RTC Version: 1.7.9
+   * Component: SRAM Version: 1.7.9
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F407IGHx
+  .\RTE\_Target_1
+  C:\Users\dhritiman\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\Board
+  C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+  C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc
+  C:\Users\dhritiman\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\MDK\Boards\Keil\MCBSTM32F400\Common
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::Board Support:Graphic LCD:1.0.0 (API)
+      Include file:  Board\Board_GLCD.h
+
+   * Component: ::Device:STM32Cube Framework:1.0.0 (API)
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: Keil.MCBSTM32F400::Board Support:Graphic LCD:2.0.0
+      Source file:   MDK\Boards\Keil\MCBSTM32F400\Common\GLCD_MCBSTM32F400.c
+      Include file:  MDK\Boards\Keil\MCBSTM32F400\Common\GLCD_Config.h
+      Source file:   MDK\Boards\Keil\MCBSTM32F400\Common\GLCD_Fonts.c
+
+   * Component: Keil::Device:STM32Cube Framework:Classic:1.7.9
+      Include file:  CMSIS\Driver\Config\RTE_Device.h
+      Include file:  MDK\Templates\Inc\stm32f4xx_hal_conf.h
+      Source file:   MDK\Templates\Src\stm32f4xx_hal_msp.c
+      Include file:  MDK\Templates\Inc\stm32f4xx_it.h
+      Source file:   MDK\Templates\Src\stm32f4xx_it.c
+      Include file:  MDK\Templates\Inc\main.h
+      Source file:   MDK\Templates\Src\main.c
+      Source file:   MDK\Templates_LL\Src\main.c
+      Include file:  MDK\Templates_LL\Inc\main.h
+
+   * Component: Keil::Device:STM32Cube HAL:Common:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+      Include file:  Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h
+
+   * Component: Keil::Device:STM32Cube HAL:Cortex:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+
+   * Component: Keil::Device:STM32Cube HAL:DMA:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+
+   * Component: Keil::Device:STM32Cube HAL:Flash:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:GPIO:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+
+   * Component: Keil::Device:STM32Cube HAL:PWR:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:RCC:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+
+   * Component: Keil::Device:STM32Cube HAL:RTC:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rtc_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:SRAM:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c
+
+   * Component: Keil::Device:Startup:2.6.3
+      Source file:   MDK\Device\Source\ARM\STM32F40xxx_41xxx_OPT.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Build Time Elapsed:  00:00:22
+</pre>
+</body>
+</html>
